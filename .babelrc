@@ -1,0 +1,17 @@
+
+/**
+* @babel/preset-env 支持最新的语法转换成为浏览器可以识别的版本
+* @babel/preset-react 支持转换react语法
+*/
+
+{ 
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [
+        // antd 按需加载
+        // ["import", {
+        //     "libraryName": "antd",
+        //     "libraryDirectory": "es",
+        //     "style": true
+        // }]
+    ]
+}
