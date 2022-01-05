@@ -20,8 +20,10 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.7",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.7",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "@types/react-redux": "^7.1.21",
@@ -31,6 +33,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.5.1",
+    "cssnano": "^5.0.14",
     "happypack": "^5.0.1",
     "html-webpack-plugin": "^5.5.0",
     "less": "^4.1.2",

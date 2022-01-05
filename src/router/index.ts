@@ -1,4 +1,4 @@
-import Home from '@src/container/Home/index.jsx'
+import Home from '@src/container/Home/index.tsx'
 const routes = [
   {
     path: '/',

@@ -7,10 +7,7 @@ const commonConfig = require('./webpack.common.js')
 
 let config = merge(commonConfig, {
   mode: 'production',
-  plugins: [
-    new CleanWebpackPlugin(['dist']),
-    new webpack.ids.HashedModuleIdsPlugin()
-  ],
+  plugins: [new CleanWebpackPlugin(), new webpack.ids.HashedModuleIdsPlugin()],
   // 监控 资源文件和入口文件大小检测 warning 警告提示
   performance: {
     hints: 'warning',
