@@ -1,8 +1,8 @@
-import React from 'react'
-import ReactDom from 'react-dom'
-import './index.less'
-import App from '@src/App'
-import ErrorBoundary from '@src/container/ErrorBoundary'
+import React from "react";
+import ReactDom from "react-dom/client";
+import "./index.less";
+import App from "@src/App";
+import ErrorBoundary from "@src/container/ErrorBoundary";
 
 const Main = () => (
   // 严格模式
@@ -13,6 +13,7 @@ const Main = () => (
       <App />
     </ErrorBoundary>
   </React.StrictMode>
-)
+);
 
-ReactDom.render(<Main />, document.getElementById('root'))
+const root = ReactDom.createRoot(document.getElementById("root"));
+root.render(<App />);

@@ -1,6 +1,6 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import ROUTE_LIST from '@src/router'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ROUTE_LIST from "@src/router";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         ))}
       </Routes>
     </Router>
-  )
-}
+  );
+};
 
-export default App
+export default App;
